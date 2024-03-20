@@ -1,0 +1,12 @@
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalWebMed.Entities.csproj.AssemblyReference.cache
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalWebMed.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalWebMed.Entities.AssemblyInfoInputs.cache
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalWebMed.Entities.AssemblyInfo.cs
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalWebMed.Entities.csproj.CoreCompileInputs.cache
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Debug\net7.0\APIPortalWebMed.Entities.deps.json
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Debug\net7.0\APIPortalWebMed.Entities.dll
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Debug\net7.0\APIPortalWebMed.Entities.pdb
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalWebMed.Entities.dll
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\refint\APIPortalWebMed.Entities.dll
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalWebMed.Entities.pdb
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\ref\APIPortalWebMed.Entities.dll
