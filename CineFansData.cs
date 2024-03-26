@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace APIPortalWebMed.Entities
+﻿namespace APIPortalKiosco.Entities
 {
     public class CineFansData
     {
@@ -36,8 +30,6 @@ namespace APIPortalWebMed.Entities
         public int VisitasTotal { get; set; }
         public string VisitasFalta { get; set; }
         public string NivelCF { get; set; }
-        public string Acumulado { get; set; } 
-          
+        public string Acumulado { get; set; }
     }
-
 }
