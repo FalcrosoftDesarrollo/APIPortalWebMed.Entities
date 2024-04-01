@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace APIPortalKiosco.Entities
 {
-    public class DateCartelera
+    public class DateCartelera2
     {
         public string DiaLt { get; set; }
         public string Flags { get; set; }
