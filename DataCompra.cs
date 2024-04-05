@@ -8,7 +8,6 @@ namespace APIPortalKiosco.Entities
 {
     public class DataCompra
     {
-
         public string EmailEli { get; set; }
         public string NombreEli { get; set; }
         public string KeyTeatro { get; set; }
