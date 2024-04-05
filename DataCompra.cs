@@ -16,5 +16,6 @@ namespace APIPortalKiosco.Entities
         public string TipoCompra { get; set; }
         public string ApellidoEli { get; set; }
         public string TelefonoEli { get; set; }
+        public string CiudadTeatro { get; set; }
     }
 }
