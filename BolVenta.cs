@@ -23,7 +23,7 @@ namespace APIPortalKiosco.Entities
         public int Sala { get; set; }
         public string Tipo { get; set; }
         public string Imagen { get; set; }
-        public static string Censura { get; set; }
+        public string Censura { get; set; }
         public string FechaPrg { get; set; }
         public string FechaDia { get; set; }
         public string Funcion { get; set; }
@@ -36,7 +36,7 @@ namespace APIPortalKiosco.Entities
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public List<Ubicaciones> Ubicaciones { get; set; }
-
+     
         public int FilSala { get; set; }
         public int ColSala { get; set; }
         public string TipoSilla { get; set; }

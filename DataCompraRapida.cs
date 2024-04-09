@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace APIPortalKiosco.Entities
 {
-    public class DateCompraRapida
+    public class DataCompraRapida
     {
         public string Pelicula { get; set; }
         public string Fecha { get; set; }

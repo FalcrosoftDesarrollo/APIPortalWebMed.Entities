@@ -132,10 +132,7 @@ namespace APIPortalKiosco.Entities
         public string univ { get; set; }
         public IList<hora> hora { get; set; }
     }
-
-    /// <summary>
-    /// Entidad para datos de horas cartelera Json
-    /// </summary>
+     
     public class hora
     {
         public string idFuncion { get; set; }
@@ -152,30 +149,21 @@ namespace APIPortalKiosco.Entities
         public TipoZona TipoZona { get; set; }
         public IList<TipoZona> TipoZonaOld { get; set; }
     }
-
-    /// <summary>
-    /// Entidad para datos de tipos de zonas cartelera Json
-    /// </summary>
+     
     public class TipoZona
     {
         public string nombreZona { get; set; }
         public string idZona { get; set; }
         public IList<TipoSilla> TipoSilla { get; set; }
     }
-
-    /// <summary>
-    /// Entidad para datos de tipos de sillas cartelera Json
-    /// </summary>
+     
     public class TipoSilla
     {
         public string nombreTipoSilla { get; set; }
         public string idTipoSilla { get; set; }
         public IList<Tarifa> Tarifa { get; set; }
     }
-
-    /// <summary>
-    /// Entidad para datos de tarifas cartelera Json
-    /// </summary>
+     
     public class Tarifa
     {
         public string codigoTarifa { get; set; }
@@ -192,10 +180,7 @@ namespace APIPortalKiosco.Entities
         public string listaEspecial { get; set; }
         public string valor { get; set; }
     }
-
-    /// <summary>
-    /// Entidad para datos de fechas en cartelera portal
-    /// </summary>
+     
     public class DateCartelera
     {
         public string FecSt { get; set; }
@@ -205,10 +190,7 @@ namespace APIPortalKiosco.Entities
         public string Flags { get; set; }
         public DateTime FecDt { get; set; }
     }
-
-    /// <summary>
-    /// Entidad para datos de pelicula-fechas en cartelera compra rapida
-    /// </summary>
+     
     public class DateCompraRapida
     {
         public string Pelicula { get; set; }

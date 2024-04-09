@@ -1,0 +1,12 @@
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Release\net7.0\APIPortalKiosco.Entities.deps.json
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Release\net7.0\APIPortalKiosco.Entities.dll
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Release\net7.0\APIPortalKiosco.Entities.pdb
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.csproj.AssemblyReference.cache
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.AssemblyInfoInputs.cache
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.AssemblyInfo.cs
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.csproj.CoreCompileInputs.cache
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.dll
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\refint\APIPortalKiosco.Entities.dll
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.pdb
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\ref\APIPortalKiosco.Entities.dll
