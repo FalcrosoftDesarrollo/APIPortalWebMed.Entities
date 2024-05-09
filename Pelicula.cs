@@ -32,9 +32,12 @@ namespace APIPortalWebMed.Entities
      
         public string FechaSel { get; set; }
         public string HoraSel { get; set; }
+        public string FechaUsuario { get; set; }
+        public string HoraUsuario { get; set; }
         public string numeroSala { get; set; }
         public string tipoSala { get; set; }
         public bool Habilitado { get; set; }
+
         public List<Fechas> DiasDisponibles { get; set; }
         public List<string> CinesDisponibles { get; set; }
     }

@@ -166,6 +166,7 @@ namespace APIPortalKiosco.Entities
         public string Flag { get; set; }
         public string SwitchAdd { get; set; }
         public string Frecuente { get; set; }
+        public Boolean Modificado { get; set; } = false;
 
         public List<Receta> Receta { get; set; }
         public List<Precios> Precios { get; set; }

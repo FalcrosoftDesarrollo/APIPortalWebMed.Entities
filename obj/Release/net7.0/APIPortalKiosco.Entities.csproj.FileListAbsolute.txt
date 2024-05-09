@@ -10,3 +10,4 @@ C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKios
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\refint\APIPortalKiosco.Entities.dll
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.pdb
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\ref\APIPortalKiosco.Entities.dll
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Release\net7.0\APIPortalKiosco.Entities.sourcelink.json

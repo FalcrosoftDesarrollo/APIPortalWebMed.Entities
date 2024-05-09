@@ -6,6 +6,7 @@ C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco.Entities.AssemblyInfoInputs.cache
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco.Entities.AssemblyInfo.cs
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco.Entities.csproj.CoreCompileInputs.cache
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco.Entities.sourcelink.json
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco.Entities.dll
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\refint\APIPortalKiosco.Entities.dll
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco.Entities.pdb
