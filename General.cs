@@ -195,7 +195,62 @@ namespace APIPortalKiosco.Entities
             //Devolver valores
             return lc_jsonch;
         }
-         
+
+        public async Task<string> WebServicesAsync(string pr_rutsrv, string pr_objson)
+        {
+            #region VARIABLES LOCALES
+            string lc_jsonst = string.Empty;
+            string lc_result = string.Empty;
+
+            Dictionary<string, string> ob_diclst;
+            #endregion
+
+            var lc_strurl = string.Concat($"", pr_rutsrv, "");
+            lc_jsonst = string.Concat($"\"", pr_objson, "\"");
+
+            // Inicializar consumo POST
+            HttpWebRequest ob_request = (HttpWebRequest)WebRequest.Create(lc_strurl);
+            ob_request.Method = "POST";
+            ob_request.ContentType = "application/json";
+            ob_request.ContentLength = lc_jsonst.Length;
+            ob_request.ServicePoint.Expect100Continue = false;
+            ob_request.ServicePoint.UseNagleAlgorithm = false;
+
+            // Ejecutar consumo POST
+            using (StreamWriter requestWriter = new StreamWriter(await ob_request.GetRequestStreamAsync()))
+            {
+                await requestWriter.WriteAsync(lc_jsonst);
+            }
+
+            try
+            {
+                // Obtener respuesta de manera asincrónica
+                using (WebResponse ob_response = await ob_request.GetResponseAsync())
+                using (Stream ob_stream = ob_response.GetResponseStream())
+                using (StreamReader ob_reader = new StreamReader(ob_stream))
+                {
+                    // Leer respuesta POST de manera asincrónica
+                    lc_result = await ob_reader.ReadToEndAsync();
+                }
+
+                lc_result = lc_result.Replace("[", "");
+                lc_result = lc_result.Replace("]", "");
+
+                // Leer fichero JSON, recorrer diccionario y desencriptar respuesta
+                ob_diclst = (Dictionary<string, string>)JsonConvert.DeserializeObject(lc_result, typeof(Dictionary<string, string>));
+                foreach (var lc_diclst in ob_diclst)
+                    lc_result = "0-" + DecryptStringAES(lc_diclst.Value);
+            }
+            catch (Exception lc_syserr)
+            {
+                lc_result = "1-" + lc_syserr.Message;
+            }
+
+            // Devolver valores
+            return lc_result;
+        }
+
+
         public string WebServices(string pr_rutsrv, string pr_objson)
         {
             #region VARIABLES LOCALES
@@ -247,7 +302,7 @@ namespace APIPortalKiosco.Entities
             //Devolver valores
             return lc_result;
         }
-         
+
         public Dictionary<string, List<object>> WebServices2(string pr_rutsrv, string pr_objson)
         {
             #region VARIABLES LOCALES

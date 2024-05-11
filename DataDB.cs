@@ -1,5 +1,6 @@
 ﻿using APIPortalKiosco.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using MySql.Data.MySqlClient;
 using System;
@@ -26,6 +27,8 @@ namespace APIPortalKiosco.Entities
         public DbSet<TransactionSales> TransactionSales { get; set; }
         public DbSet<LogSales> LogSales { get; set; }
         #endregion
+
+     
 
         #region CONSTRUCTOR
         /// <summary>
@@ -54,15 +57,26 @@ namespace APIPortalKiosco.Entities
         /// <param name="optionsBuilder">Parm valores de cadena</param>
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Configuración de la cadena de conexión con MySQL
-            optionsBuilder.UseMySQL(config.Value.PortalWebDB, mySqlOptions =>
+            try
             {
-                // Ajustes adicionales del pool de conexiones
-                mySqlOptions.MaxBatchSize(300); // Tamaño máximo del pool de conexiones
-                mySqlOptions.MinBatchSize(10); // Tamaño mínimo del pool de conexiones
-                mySqlOptions.CommandTimeout(90); // Tiempo de espera para conectar (en segundos)
-            });
+                // Obtener la cadena de conexión de appsettings.json
+                var configuration = new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+
+                var connectionString = configuration.GetConnectionString("PortalWeb");
+
+                // Configurar la cadena de conexión con MySQL especificando la versión del servidor
+                optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+            }
+            catch (Exception ex)
+            {
+                // Manejar cualquier excepción que ocurra durante la configuración
+                Console.WriteLine("Error en la configuración de la base de datos MySQL: " + ex.Message);
+                throw; // Relanza la excepción para que el problema se detecte más fácilmente
+            }
         }
+
 
 
         /// <summary>
