@@ -1,3 +1,4 @@
+C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Debug\net7.0\appsettings.json
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Debug\net7.0\APIPortalKiosco.Entities.deps.json
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Debug\net7.0\APIPortalKiosco.Entities.dll
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Debug\net7.0\APIPortalKiosco.Entities.pdb
@@ -11,4 +12,3 @@ C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\refint\APIPortalKiosco.Entities.dll
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\APIPortalKiosco.Entities.pdb
 C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\obj\Debug\net7.0\ref\APIPortalKiosco.Entities.dll
-C:\FALCROSOFT\PROCINAL\APIPortalWebMed.Entities\bin\Debug\net7.0\appsettings.json
