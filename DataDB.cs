@@ -61,7 +61,7 @@ namespace APIPortalKiosco.Entities
             {
                 // Obtener la cadena de conexión de appsettings.json
                 var configuration = new ConfigurationBuilder()
-                    .AddJsonFile("appsettings.json")
+                    .AddJsonFile("kiosco.json")
                     .Build();
 
                 var connectionString = configuration.GetConnectionString("PortalWeb");
