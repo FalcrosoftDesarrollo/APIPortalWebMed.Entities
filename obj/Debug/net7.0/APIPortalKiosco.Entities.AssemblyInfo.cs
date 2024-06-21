@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIPortalKiosco.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3218409107735226ad0e2bf05cd32f481b382eb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48522fad76c1e37b73d8e34076c409d0ac67e206")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIPortalKiosco.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIPortalKiosco.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
